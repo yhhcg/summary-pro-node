@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:yhhcg/summary-pro-node.git",
   "author": "yhhcg",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
