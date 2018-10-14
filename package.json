@@ -6,6 +6,9 @@
   "repository": "git@github.com:yhhcg/summary-pro-node.git",
   "author": "yhhcg",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.16.3"
   }
