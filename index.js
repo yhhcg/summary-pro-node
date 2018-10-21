@@ -25,6 +25,7 @@ app.post('/login', function (req, res) {
   console.log('POST');
   console.log(req.body);
   console.log(req.query);
+  res.statusMessage = 'Login success';
   res.status(200).json({
     errorCode: '0',
     errMessage: 'ok',
